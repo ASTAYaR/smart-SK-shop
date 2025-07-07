@@ -1,22 +1,244 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>smart-SK-shop</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #f5f5f5;
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
-</head>
-<body>
-  <h1>Welcome to smart-SK-shop!</h1>
-  <p>Coming soon: the smartest shop on the internet 🚀</p>
-</body>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#221911] dark group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#473424] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor"></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Smart SK Shop</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Products</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Support</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Community</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#473424] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Cart</span>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#473424] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-white" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCfKKaenn5wIh0nXfVa4KOwmPVeiJ9r-mF46Mh4tl5zjRzBCkpwRdWgjEqGay6BDA6y1icOK58SY5uB6Um2u4-T8Pf2FA4dXMw8rxHv6LrrqtDunNUyH8ZD2dh-8DTQGbwezhsTZ2KY_KRhKMu-y0HDoFRNGj_Vkk8NfcQPcVf_EAxWXXUzXtnx4uub7lygUqJoyDLM0rbyrKpRwwnKqsOndVoop3eXHFM1JxPJn-jkAzA5Pq5VdrJvfQv-b1QUTyVlXApyzxjihN_7");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC9syeXVA2hzVLqtUzwEHIPEO8jlrDAPqe9dDo7GRNBc5GKvgOGQf4g3I02RbvkJDpuyCpc7hWSn3FajICakmXNLKKwnMCqd3fUyNLMFdZtjmqvsRsedXd8j3qaadiDbm1P7c5CfPKZv0czyExDYrgLOemnKNz9sycFwkcnguf5VShusBApQQCX9J8YBVY-9ogvmfzXlTnEnqkxHI6KmDY4mW7JaSyiG1PxUZ77NT_r6jwmUmHi-t7DWzIOpzjSKvtk8sYlRaG8l_Cg");'
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Immerse Yourself in Sound
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Experience the ultimate audio quality with Smart SK Shop's innovative headphones and earbuds. Designed for comfort and performance, our products deliver
+                      crystal-clear sound and deep bass, perfect for music lovers and professionals alike.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e57519] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Shop Now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Products</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCis9innNzWQxoibWIn0jq1PjF17utPzLYAWTI2HL_M6e5ul8TRqDygeDLUtjDDd7U4qMJffdDq9IBS80W0JIGwWRYKYDUgNJgbe0OIUKsqkRfVWZaUS9wBbk1o686VGb7sfkoqaTFys_sfJpHdEEwZI9z76d3X9lA3-yBtr0vOn_oBGTu3MRD8xifCFZKClp4E2W2t6LY73K5txuNgKWDnrzZMJy71rbppV3y7XfKMHr2BwkZ9X9OO6lz3KLGjYrS-hEnlC2fvTdBr");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Wireless Headphones</p>
+                    <p class="text-[#c8ab93] text-sm font-normal leading-normal">Experience superior sound quality and comfort.</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBiGSUV5QZaDV2LScjdJk3w7bJvt1RVWvKwRjD2Eo-jyIgi8RwNxrwmckIoItfMq_SQnl_EEgA3Wq1UZ4Ib95UN3Y0HXzhpMTuRZSbj8TZ-NpX9eF9Jpak-sErAHuhlrRuDqk0Qvb0KVgvjvNZ_n5VmREwPQJOdkRoIhfrjFDFxR1v7rvjRNRBsPGkEAMPXBIzkVT_FRvl1_Ud52Udlv5_A5WVY939c-aHatmaMHvbaGJ0RxTFrvSWSlMGi4iwConhMU18-1Z93ql_v");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Wireless Earphones</p>
+                    <p class="text-[#c8ab93] text-sm font-normal leading-normal">Compact and powerful, perfect for on-the-go listening.</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB0sQWfH_iNVO3916eCloI1wZDpBpxWq70bRpBnZOCle_IR3VF1vWtW53ZELAQ9461Hz6F4qlqIulHAPGQ81BPba7G2OHPU-4eDY1K7aVpQSXIAxc10kdlcsnW6TrArek5X-Cbvv086J5C0TsUV4nPof7D8KzuNpI3xgO-WmXQA_Uwq-5AFji32PLEDXx_9zHfEX7jBo7cWhcC_jkzma89kXYN2PFNXtOgC2kEAbH-EtcLRHWgzfPpxjXmBN4ejkN91ZqxKHZZ0k6y0");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Smartwatch</p>
+                    <p class="text-[#c8ab93] text-sm font-normal leading-normal">Stay connected and track your fitness goals.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Best Sellers</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDASNZes_CGnfj1bwQgryXjYmIA979GVtfguX4v6n5Bu4ZIGNf8mcUnOZGw-Es5vcZWQdcRwTKqveGu0eS5u0x622IUoraND3iV27etj7mI-tQV3gapCsftYWvtB9f4dL8bMRPh_mPMR9gHW0pR-6_dLM7ego2FBCZnsbnZuuly89hP50HtiFHwFal4rSPDMaZNT9xOUZWteqU9KZ9cc-P0nQ3vfmfb1s4G0r2pzcRU56Pt7-f3JjIeJlz71oMVBLtqk4TkwM4Qx642");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Wireless Headphones</p>
+                  <p class="text-[#c8ab93] text-sm font-normal leading-normal">Experience superior sound quality and comfort.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAR8wk86_HKHbTU9sC6WuXf8VXqd6KzG8KHvjrQgqWue6l6-iqMSayOOspFGUx_DA68RhIDQe-jJ5--O6zDQrLmDinNli-kqWyAiRi2Aw2CRuMFRQycAaIwyQ4iTREf6jCd_ky42MpJgsQKNHwe-7WtlyfPqd4o7OZIvEjx5feJB-My9OFcmy0h_5xq0uTN9SB2kfeonzPsqpwNtD6tVzCywd8_hgARpTOfqYZv7FknEDb5iOUEvm6Our7P_S98GE7VnkdWXfbe1ak3");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Wireless Earphones</p>
+                  <p class="text-[#c8ab93] text-sm font-normal leading-normal">Compact and powerful, perfect for on-the-go listening.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWAP-plK_604UKOTNIdi-iS0JyoBEuEaCsdt5Eydoyp-fOozNvQWcTmgKCJPza7V4cWzmU-aEdYc6ZKs4kCOEhXsrUZuoAXqKHhX43jN_OD2hB1x2wRn_YLK7GhmhnH6_U6hgHtsjCRHTpoCjxrzPiExROrkcl2sG6-yJlxyIJAl8fhoEZFow6oGXfuGFO0ozlRfOQbRoZWn8XR0EzGg200ViynF-ETxxZTYUPvPUmxP6TWNOyFKptLsG8NKaG3o5rgPrByi2BS7r6");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Smartwatch</p>
+                  <p class="text-[#c8ab93] text-sm font-normal leading-normal">Stay connected and track your fitness goals.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDNfVujD3Si-n4sNW-MKOkeT8z8cNJrFTGqwkocGV0XAnaVR9ZJOGIerJ-krG1nnr5vrqsFUbQq_YuMvYIZcyZbadCJQZsfT-U54jvLIfjYDEKTcxF4N1XLSxfSiTTy592VntbGj2bhsczO6sqROiXwPedT3XFVc-1GL61iKXit1MDqBGVw3xzOvf75aI27-omi9JogcV1r9r8cxZ4SQosQL1utn5vK7jqpCiJzQMOBKDmM7bPjDkcKduymqG0nEThHsUHFjHlzvlpL");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Portable Speaker</p>
+                  <p class="text-[#c8ab93] text-sm font-normal leading-normal">Take your music anywhere with our portable speaker.</p>
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                <div class="flex flex-col gap-2 text-center">
+                  <h1
+                    class="text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                  >
+                    Join the Smart SK Shop Community
+                  </h1>
+                  <p class="text-white text-base font-normal leading-normal max-w-[720px">Stay up-to-date with the latest news, exclusive offers, and product releases.</p>
+                </div>
+                <div class="flex flex-1 justify-center">
+                  <div class="flex justify-center">
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e57519] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
+                    >
+                      <span class="truncate">Subscribe</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Why Choose Smart SK Shop?
+                </h1>
+                <p class="text-white text-base font-normal leading-normal max-w-[720px]">We are committed to providing high-quality products and exceptional customer service.</p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBaAGpjRwrm7vFmKbw9glNscsBhYzkSrzZURvGC_izZG32Q_Kc2Vw8whTV3Axu--8f91SUNAFwS3bmI11HucKQuHg5jXh4an8sD7uwndzP573Yl_x6CBEkXoz5WIeIikKHB4f76l13FDiBrNylFWWywsoBb1L7tE0-fvmae41ColgNaUYFr2spCMD-j8BaM_avOQTxM3izWu9L0K1SLRUohRVBVjqgEdKo-sLJ5kT6TuDkBwc46yyVZtHEUcWDhq7xKFoekm3F59Ctj");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Customer Support</p>
+                    <p class="text-[#c8ab93] text-sm font-normal leading-normal">Our dedicated support team is here to assist you with any questions or concerns.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCh8JXjhO9AebMRRLNDahnBOq7ug0bDB6wLL1onu3IMgXWGdT1tBdbAyMpfSjrWViLLrZ8WiEO6g2HVIm20cCM1rImhEz2j2uMIyh5vedXN1NkyrpAKVw-hjIWKutC2p80ruqgbkBViTzO9nElCQkINqq25hbDJRfZ5jjaBUiH5F8tUfmYU3eBLmx9AQ_v0mUmnasCWZzmtICzr0wFmmWAEu6YJsSJjQoMLeTIlxsDlNJOuD_DZbU2KgCpwtPm_2eDCU8X2b7zcN1-U");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Fast Delivery</p>
+                    <p class="text-[#c8ab93] text-sm font-normal leading-normal">Enjoy fast and reliable shipping on all orders.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDkcfG3U--CeQtiKtOmDdvg0MKR4caqYUhASw3cmEJbpAJNep4nE-fVZoBiMAkqIPf2oSRFBtm9qXObKst8qAMsZ4Rzq5eXFo0K7hRD94AXMFYreboGByrtwcJFnak55XK97CssQtOwIEgyw-7hDMwuEM0M-wuRVi5AeMZKX82Gio5TjHWaHbBMiSsAbWOolO0KZHqb5SFrabuRvQqIYz2iyFBYuFCKFe_HYn1foqm180b5b2Ao59TS9Lcim5VG9lPIWJ0GjfRXssUs");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Secure Payment</p>
+                    <p class="text-[#c8ab93] text-sm font-normal leading-normal">Shop with confidence knowing your payment information is secure.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#c8ab93] text-base font-normal leading-normal min-w-40" href="#">About Us</a>
+                <a class="text-[#c8ab93] text-base font-normal leading-normal min-w-40" href="#">Contact Us</a>
+                <a class="text-[#c8ab93] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#c8ab93] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+              </div>
+              <p class="text-[#c8ab93] text-base font-normal leading-normal">@2024 Smart SK Shop. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
